@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Question } from '../types';
 import styled, { keyframes } from 'styled-components';
 
-// Анимация появления
+
 const fadeIn = keyframes`
   from {
     opacity: 0;
@@ -12,7 +12,7 @@ const fadeIn = keyframes`
   }
 `;
 
-// Стилизованные компоненты
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
